@@ -1,0 +1,117 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main {
+    padding: 50px;
+    background-color: #fff; /* Add a white background for contrast */
+    border-radius: 8px; /* Round the corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.privacy-policy h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center; /* Center align the heading */
+    color: #000000; /* Use your accent color for the heading */
+}
+
+.privacy-policy p {
+    margin: 15px 0;
+    font-size: 1.1em;
+    line-height: 1.8; /* Increase line height for better readability */
+}
+
+.privacy-policy strong {
+    display: block; /* Make section titles stand out */
+    margin-top: 15px; /* Space above section titles */
+    font-weight: bold; /* Bold section titles */
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Stack the form elements */
+    align-items: flex-start; /* Align items to the start */
+}
+
+form label {
+    margin-left: 10px;
+}
+
+form input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label */
+}
+
+form button {
+    padding: 10px 20px;
+    margin: 20px 0; /* Add vertical spacing */
+    cursor: pointer;
+    border: none; /* Remove border for a cleaner look */
+    border-radius: 5px; /* Round corners for buttons */
+    transition: background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.accept {
+    background-color: #4CAF50; /* Green for accept */
+    color: white;
+}
+
+.accept:hover {
+    background-color: #45a049; /* Darken on hover */
+}
+
+.decline {
+    background-color: #f44336; /* Red for decline */
+    color: white;
+}
+
+.decline:hover {
+    background-color: #e53935; /* Darken on hover */
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.user span {
+    margin-right: 10px;
+}
+
+.user a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.user a:hover {
+    color: #fff;
+}
+
+/* Additional Styles for Better Layout */
+@media (max-width: 600px) {
+    .container {
+        padding: 0 10px; /* Reduce padding on small screens */
+    }
+
+    form {
+        width: 100%; /* Full width for form on smaller screens */
+    }
+}

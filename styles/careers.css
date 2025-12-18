@@ -1,0 +1,248 @@
+/*Akith Perera IT23551152*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+
+a .booking-btn {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a .booking-btn:hover {
+    background-color: #0056b3; 
+}
+
+
+.user {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.user span {
+    margin-right: 10px;
+}
+
+.user a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.user a:hover {
+    color: #fff;
+}
+
+
+.careers-hero {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.careers-hero .hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.careers-hero .hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+
+.open-positions {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.open-positions h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+}
+
+.position-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.position {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+}
+
+.position img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.position h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.position p {
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #666;
+}
+
+.apply-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #005f99;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #00487a;
+}
+
+
+.why-work-with-us {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.why-work-with-us h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+}
+
+.content-image-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-between; 
+    width: auto; 
+    height: 500px;
+}
+
+.content {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.content h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.section-image {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.employee-testimonials {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.employee-testimonials h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+}
+
+.testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testimonial p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.author {
+    font-size: 1em;
+    color: #333;
+}
+
+#responseMessage {
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+}
+footer .copyright {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+footer .copyright a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .copyright a:hover {
+    text-decoration: underline;
+}

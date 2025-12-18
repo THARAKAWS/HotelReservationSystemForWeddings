@@ -1,0 +1,58 @@
+/* <!--Kalana Biyanwila IT23609280--> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.faq {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.faq h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #005f99;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h2 {
+    text-align: left;
+    font-size: 1.5em;
+    color: #005f99;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #333;
+}
+
+.faq-item a {
+    color: #005f99;
+    text-decoration: underline;
+}
+
+.faq-item a:hover {
+    color: #003f66;
+}

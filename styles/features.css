@@ -1,0 +1,114 @@
+/* Samarasinghe A.V.A.V. IT23585676 */
+.features {
+    padding: 50px;
+    text-align: center;
+    background-color: #f7f4f1; 
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.features h2 {
+    margin-bottom: 30px;
+    font-size: 2.8em;
+    font-weight: bold;
+    color: #333;
+}
+
+.feature-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #fff5f0, #fbe3db); 
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); 
+}
+
+.feature-item img {
+    width: 200px; 
+    height: 140px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-item img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.feature-info {
+    flex-grow: 1;
+    margin-left: 40px; 
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.7em; 
+    color: #555;
+}
+
+.feature-info h3 {
+    font-size: 2em;
+    color: #ff6347; 
+    margin-bottom: 15px;
+}
+
+.booking-btn1 {
+    background: linear-gradient(135deg, #ff7f50, #ff4500); 
+    color: white;
+    padding: 15px 35px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(255, 127, 80, 0.4); 
+}
+
+.booking-btn1:hover {
+    background: linear-gradient(135deg, #ff6347, #ff2b00); 
+    transform: translateY(-5px); /* Lift on hover */
+    box-shadow: 0 8px 20px rgba(255, 99, 71, 0.6);
+}
+
+.booking-btn1:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 127, 80, 0.5);
+}
+
+.booking-btn1:active {
+    background: linear-gradient(135deg, #ff4500, #e63900); 
+    transform: translateY(0);
+}
+
+
+@media (max-width: 768px) {
+    .feature-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .feature-info {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .feature-item img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .booking-btn1 {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+}

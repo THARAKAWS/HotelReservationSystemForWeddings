@@ -1,0 +1,126 @@
+/* De Silva H.S.S IT23562042 */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(150vh - 250px);
+  padding: 100px;
+}
+
+.login-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 1100px;
+  width: 100%;
+  padding: 20px;
+}
+
+.login-box, .signup-box {
+  padding: 30px;
+  width: 50%;
+}
+
+.signup-box {
+  background: url(../images/signup_bg_img.jpg) no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding-right: 40px; 
+}
+
+/* Styling for the login button */
+.login-box .btn {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+/* Hover effect for login button */
+.login-box .btn:hover {
+  background-color: #0056b3;
+}
+
+.signup-box .btn {
+  margin-top: 20px;
+  padding: 12px 35px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.signup-box .btn:hover {
+  background-color: #0056b3;
+}
+
+.or {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.google-btn {
+  background-color: white;
+  color: #444;
+  border: 1px solid #ddd;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Google button hover effect */
+.google-btn:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.legal-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.legal-links a {
+  color: #007bff;
+}
+
+.legal-links a:hover {
+  text-decoration: underline;
+}
